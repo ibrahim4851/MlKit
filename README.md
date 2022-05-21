@@ -9,9 +9,9 @@ As I mentioned before, the user can pick the photo from the storage or take a ne
 If the user chooses to pick it from storage; we will ask for permission to access to storage.
 Then, pickImage function runs and starts the intent to pick the image with the request code “PICK_IMAGE”
 
-After that, we get the image in the ´´´onActivityResult()´´´ function (First block)
+After that, we get the image in the ```onActivityResult()``` function (First block)
 
-If the user takes the other option -taking a photo with the camera- we will run the ´´´camera()´´´ function. 
+If the user takes the other option -taking a photo with the camera- we will run the ```camera()``` function. 
 
 Inside this function, we are creating a file URI after taking the photo. Then we get the same photo with the URI that we’ve just created and put it into the imageview. 
 
