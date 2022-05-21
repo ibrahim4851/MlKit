@@ -15,6 +15,6 @@ If the user takes the other option -taking a photo with the camera- we will run 
 
 Inside this function, we are creating a file URI after taking the photo. Then we get the same photo with the URI that we’ve just created and put it into the imageview. 
 
-And finally, we can detect the photo that the user put on the imageview with the detectImage() function. We check if there’s text in the photo by using ?let (Scope function).
+And finally, we can detect the photo that the user put on the imageview with the ```detectImage()``` function. We check if there’s text in the photo by using ```?let``` (Scope function).
 
 If there is, we basically detect it with the recognizer class function which is basically ‘process’. Then we toast the text on the image and that’s it! You can use that text wherever you want.
